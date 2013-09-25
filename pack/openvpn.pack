@@ -1,0 +1,26 @@
+{
+"name":"openvpn",
+
+"description":"Standard openvpn checks",
+
+"path":"network/services/",
+
+"macros":{
+         "_VPN_USER": {"type":"string",
+                       "description":"The vpn user"
+                      },
+         "_VPN_PASSWORD": {"type":"string",
+                     "description": "the user password"
+                      },
+         "_VPN_URL_TO_CHECK": {"type":"string",
+                              "description": "url to ckeck via the vpn interface"
+                             },
+         "_VPN_CONFIG_FILE": {"type":"string",
+                         "description": "openvpn config file"
+                        },
+         "_VPN_EXTRA_ARGS": {"type":"string",
+                             "description": "extras arguments if needed"
+                            }
+	}
+
+}

@@ -1,0 +1,23 @@
+{
+	"name": "openvpn",
+	"types": ["pack"],
+	"version": "1.4",
+	"homepage": "https://github.com/atarakt/pack-vpn",
+	"author": "Nicolas HICHER",
+	"description": "Standard openvpn(s) checks",
+	"contributors": [
+	  {
+		"name": "Nicolas HICHER",
+		"email": "atarakt@gmail.com"
+	  },
+	],
+	"repository": "https://github.com/atarakt/pack-vpn",
+	"keywords": [
+	  "pack",
+	  "openvpn",
+	],
+	"dependencies": {
+	  "shinken": ">=1.4"
+	},
+	"license": "GPL2"
+}
